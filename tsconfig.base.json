@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ecommerce/ui-shared": ["ui-shared/src/index.ts"],
+      "@ecommerce/ui-shared/server": ["ui-shared/src/server.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
